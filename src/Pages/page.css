@@ -1,0 +1,147 @@
+.page{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: aliceblue;
+}
+
+.about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: aliceblue;
+}
+
+.gym{
+    margin-left: 800px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    min-height: 240vh;
+}
+
+.search-box{
+    outline: none;
+    width: 90%;
+    margin-left: 6%;
+    border:  3px solid rgb(170, 170, 170);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(5, 5, 5, 0.582);
+    color: rgb(245, 245, 240);
+   }
+
+#div1{
+    color: rgb(255, 255, 255);
+    width: 33.33%;
+    float: left;
+    margin: 30px;
+    padding: 26px;
+    font-size: 24px;
+    
+}
+.filters{
+    font-size: 10px;
+    color: aliceblue;
+    margin: 20px 20px 0px 0px;
+}
+
+.search-box2{
+    outline: none;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.322);
+    border:  1px solid gray;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.search-box3{
+    outline: none;
+    width: 30%;
+    background-color: rgba(128, 128, 128, 0.322);
+    border:  1px solid gray;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: 0px 20px 0px 0px;
+}
+
+
+.drop{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(54, 53, 53);
+    align-items: center;
+   }
+
+   .drop1{
+    border: 1px solid white;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0px 0px 10px;
+}
+
+.jio{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 1100px;
+    border-radius: 5px;
+    background-color: rgba(241, 18, 18, 0.973);
+   height: 50px;
+   width: 50px;
+   cursor: pointer;
+   color: rgb(255, 14, 14);
+   cursor: pointer;
+
+}
+
+
+
+
+.jiodiv{
+   margin: -55px 0px 15px; 
+
+  width: 50px;
+  height: 50px;
+  
+}
+
+.jio2{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 200px 0px 0px 150px;
+    color: rgb(253, 255, 254);
+    background-color: rgba(255, 0, 0, 0.842);
+   height: 40px;
+   cursor: pointer;
+   text-decoration: none;
+   margin: 0px 1100px;
+   
+   justify-content: flex-end;
+   cursor: pointer; 
+   
+}
+
+.clear{
+    display: flex;
+    margin: -45px 70px;
+}
+
+
+
+.icon1{
+    width: 30px;
+    height: 20px;
+    color: black;
+    font-size: 25px;
+}

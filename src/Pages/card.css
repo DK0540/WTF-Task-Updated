@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 900px;
+    height: 300px;
+    float: right;
+    box-shadow: 0 0 28px 4px rgb(59, 59, 59);
+    transition: transform .3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: azure;
+    
+  }
+
+
+  .card__address{
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+  }
+
+  .card__body{
+    margin: 0px 0px 0px 300px;
+  }
+
+  .btn{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 200px 0px 0px 150px;
+    color: rgb(253, 255, 254);
+    background-color: rgba(255, 0, 0, 0.842);
+   height: 40px;
+   cursor: pointer;
+   text-decoration: none;
+  }
+
+.card:hover {
+    transition: scale(1.1);;
+}
+
+.card__title{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card__rating{
+    color: yellow;
+    
+}
+
+
+
+.name{
+  width: 100px;
+  height: 100px;
+  color: rgb(190, 115, 16);
+}

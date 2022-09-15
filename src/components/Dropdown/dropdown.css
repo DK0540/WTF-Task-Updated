@@ -1,0 +1,61 @@
+
+.dropdown{
+    outline: none;
+    width:  400px;
+    height: 60px;
+    user-select: none;
+    margin: 0px 80px  20px auto;
+    position: relative;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.322);
+    border:  1px solid gray;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    
+}
+
+
+/* .search-box2{
+    outline: none;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.322);
+    border:  1px solid gray;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+} */
+
+.dropdown .dropdown-btn {
+    padding: 15px 0px 20px 0px;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown .dropdown-content {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    padding: 15px;
+    background: rgb(99, 98, 98);
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 300;
+    color: rgb(255, 251, 251);
+    width: 100%;
+    
+}
+
+.dropdown .dropdown-content .dropdown-item{
+   padding: 5px;
+   cursor: pointer;
+   transition: all 0.2s;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+    background: #f4f4f4;
+}
+

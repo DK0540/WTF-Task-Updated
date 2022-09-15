@@ -1,0 +1,11 @@
+.logo{
+    width: 100px;
+    height: 80px;
+}
+
+.bars{
+  background-color: aqua;
+  display: flex;
+  align-items:flex-start;
+  margin: 30px ;
+}

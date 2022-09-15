@@ -1,0 +1,50 @@
+.footer{
+    background: rgb(235, 32, 32);
+    height: 300px;
+    color: white;
+    padding: 3em;
+    margin-top: auto;
+}
+
+.footer-final{
+    background: rgb(0, 0, 0);
+    height: 400px;
+    padding: 3em;
+    margin-top: auto;
+}
+.head{
+    color: aliceblue;
+    font-size: 20px;
+    width: 30%;
+    float: left;
+}
+
+.head2{
+    color: aliceblue;
+    font-size: 10px;
+    width: 23.33%;
+    float: left;
+}
+
+.head3{
+    color: aliceblue;
+    font-size: 10px;
+    width: 23.33%;
+    float: left;
+}
+.head4{
+    color: aliceblue;
+    font-size: 10px;
+    width: 23.33%;
+    float: left;
+}
+
+p{
+    font-size: 17px;
+    color: rgb(208, 209, 209);
+}
+
+.icon{
+    color: white;
+}
+
